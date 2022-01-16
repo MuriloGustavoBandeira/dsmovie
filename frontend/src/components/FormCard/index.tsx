@@ -8,7 +8,7 @@ import { validateEmail } from 'utils/validate';
 
 
     type Props = {
-        movieId : string;
+        movieId: string;
     }
 
 export default function FormCard( { movieId } : Props) {
