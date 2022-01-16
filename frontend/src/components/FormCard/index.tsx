@@ -22,7 +22,7 @@ export default function FormCard( { movieId } : Props) {
         .then(response => {
             setMovie(response.data);
         });
-    })
+    }, [movieId]);
 
     const handleSubmit = (event : React.FormEvent<HTMLFormElement>) => {
 
